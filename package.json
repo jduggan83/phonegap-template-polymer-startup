@@ -1,0 +1,17 @@
+{
+  "name": "phonegap-template-polymer-startup",
+  "version": "1.0",
+  "description": "A Polymer Startup App template built with PhoneGap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jduggan83/phonegap-template-polymer-startup.git"
+  },
+  "author": "Jonathan Duggan",
+  "keywords": [
+    "ecosystem:phonegap",
+    "ecosystem:cordova",
+    "cordova:template",
+    "phonegap:template"
+  ],
+  "homepage": "https://github.com/jduggan83/phonegap-template-polymer-startup"
+}
