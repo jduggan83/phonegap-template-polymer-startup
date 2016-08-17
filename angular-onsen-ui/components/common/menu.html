@@ -1,0 +1,38 @@
+<ons-page>
+    <ons-list>
+        <ons-list-header>Menu</ons-list-header>
+       <ons-list-item tappable ng-click="pageSplitter.toggle()">
+           Menu 1
+        </ons-list-item>
+		<ons-list-item tappable ng-click="pageSplitter.toggle()">
+           Menu 2
+        </ons-list-item>
+    </ons-list>
+    <ons-list>
+        <ons-list-header>Filters</ons-list-header>
+        <ons-list-item tappable ng-click="pageSplitter.toggle()">
+            <div class="left">
+                <ons-input type="radio" name="categoryGroup" input-id="competition-all" checked></ons-input>
+            </div>
+            <label class="center" for="competition-all">All</label>
+        </ons-list-item>
+        <ons-list-item tappable ng-click="pageSplitter.toggle()">
+            <div class="left">
+                <ons-input type="radio" name="categoryGroup" input-id="competition-premier"></ons-input>
+            </div>
+            <label class="center" for="competition-premier">Filter 1</label>
+        </ons-list-item>
+		<ons-list-item tappable ng-click="pageSplitter.toggle()">
+            <div class="left">
+                <ons-input type="radio" name="categoryGroup" input-id="competition-premier"></ons-input>
+            </div>
+            <label class="center" for="competition-premier">Filter 2</label>
+        </ons-list-item>
+		<ons-list-item tappable ng-click="pageSplitter.toggle()">
+            <div class="left">
+                <ons-input type="radio" name="categoryGroup" input-id="competition-premier"></ons-input>
+            </div>
+            <label class="center" for="competition-premier">Filter 3</label>
+        </ons-list-item>
+    </ons-list>
+</ons-page>

@@ -1,6 +1,6 @@
-### Polymer Starter Kit PhoneGap Template
+### PhoneGap Template
 
-A PhoneGap template with the Polymer Starter Kit.
+A repository for PhoneGap templates.
 
 #### Requirements
 
@@ -17,7 +17,7 @@ Create a new phonegap application using the [phonegap-cli][phonegap-cli-url].
 
     $ phonegap create my-app    # create a PhoneGap project
     
-Copy the www folder from this repository into the newly create phonegap app folder overwriting whats there. Then run bower to install the polymer dependencies.
+Copy the contents of template you want from this repository into the newly create phonegap app folder overwriting the contents of the www folder. Then run bower to install to retrieve all its dependencies.
 
     $ cd my-app/www             # change to newly copied www  directory
     $ bower install             # run bower to install the polymer dependencies
